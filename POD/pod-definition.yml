@@ -1,0 +1,14 @@
+apiVersion: v1
+
+kind: Pod
+
+metadata:
+  name: myapp
+  lable:
+    app: myapp
+
+spec:
+  containes:
+    - name: nginx-container
+      image: nginx
+
