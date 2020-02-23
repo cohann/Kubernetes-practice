@@ -4,11 +4,11 @@ kind: Pod
 
 metadata:
   name: myapp
-  lable:
+  labels:
     app: myapp
 
 spec:
-  containes:
+  containers:
     - name: nginx-container
       image: nginx
 
