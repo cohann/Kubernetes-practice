@@ -19,7 +19,6 @@ spec:
           image: nginx
 
   replicas: 3
-
   selector:
     matchLabels:
       app: myapp
